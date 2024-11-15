@@ -1,0 +1,547 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Rubik+Wet+Paint&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --myBlue: #2c3e50;
+  --myGreen: #1abc9c;
+  --myWhite: #fff;
+  --maingray: #6c757d;
+  --mainFont: "Montserrat", sans-serif;
+  --paragraphfont: "Lato", sans-serif;
+}
+
+/* -----------------nav bootstrap------------------- */
+nav {
+  position: sticky !important;
+  z-index: 10 !important;
+  top: 0;
+}
+
+.navbar {
+  background-color: var(--myBlue);
+}
+
+.container-fluid {
+  width: 85%;
+  display: flex;
+}
+
+.navbar-brand {
+  font-family: var(--mainFont);
+  text-transform: uppercase;
+  color: var(--myWhite);
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.navbar-brand:hover {
+  color: var(--myWhite);
+}
+
+.nav-link {
+  margin: 10px;
+  font-family: var(--mainFont);
+  text-transform: uppercase;
+  color: var(--myWhite);
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.nav-link:hover {
+  color: var(--myGreen);
+}
+
+.nav-link:active {
+  background-color: var(--myGreen) !important;
+  color: var(--myWhite) !important;
+}
+
+.navbar-toggler-icon {
+  color: var(--myWhite);
+}
+
+.navbar-toggler {
+  width: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: var(--myGreen);
+  color: var(--myWhite);
+  font-family: var(--mainFont);
+  text-transform: uppercase;
+}
+
+.icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ic {
+  width: 1.2em;
+}
+
+/* ------------------- */
+
+/* }
+nav {
+  position: sticky;
+  top: 0px;
+  padding: 24px 0px;
+  background-color: var(--myBlue);
+  text-transform: uppercase;
+  font-weight: bold;
+  z-index: 10;
+}
+#navcontainer {
+  padding: 0px 12px;
+  margin: 0px auto;
+  height: 56px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+nav h1 {
+  width: auto;
+  margin: 0 16px 0 0;
+  display: flex;
+  justify-content: flex-start;
+  padding: 5px 0px;
+  font-family: var(--mainFont);
+}
+nav h1 a {
+  text-decoration: none;
+  font-size: 28px;
+  color: var(--myWhite);
+}
+nav #menuItems {
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+}
+#menuItems :hover {
+  background-color: var(--myGreen);
+  border-radius: 10px;
+  transition: 100ms;
+}
+#menuItems a {
+  text-decoration: none;
+  font-size: 16px;
+  color: var(--myWhite);
+  font-family: var(--mainFont);
+  
+}
+#menuItems div {
+  
+  width: 100px;
+  margin: 0 3px;
+  padding: 16px;
+  display: flex;
+  justify-content: center;
+  cursor:pointer;
+} */
+
+/* ---------------banner---------------- */
+#banner {
+  text-align: center;
+  background-color: var(--myGreen);
+  padding-top: 70px;
+  padding-bottom: 50px;
+}
+
+#banner > * {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#bannerphoto {
+  width: 240px;
+  margin-bottom: 48px;
+  display: inline-block;
+}
+
+#banner h1 {
+  font-size: 64px;
+  font-family: var(--mainFont);
+  color: var(--myWhite);
+  text-transform: uppercase;
+}
+
+#LineStarLinewhite {
+  margin: 20px auto 24px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+}
+
+#LineStarLinewhite span {
+  width: 112px;
+  height: 4px;
+  margin: 0 16px 0 16px;
+  background-color: var(--myWhite);
+  border-radius: 5px;
+}
+
+#LineStarLinewhite img {
+  color: var(--myWhite);
+  width: 33px;
+}
+
+#banner p {
+  font-size: 24px;
+  color: var(--myWhite);
+  font-family: var(--mainFont);
+}
+
+/* ---------------portfolio------------------- */
+
+#portfolio {
+  padding: 96px 0 48px 0px;
+  text-align: center;
+}
+
+#portfolio > * {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#portfolio h1 {
+  color: var(--myBlue);
+  text-transform: uppercase;
+  font-family: var(--mainFont);
+  font-size: 36px;
+}
+
+#LineStarLineblue {
+  margin: 20px auto 24px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+}
+
+#LineStarLineblue span {
+  width: 112px;
+  height: 4px;
+  margin: 0 16px 0 16px;
+  background-color: var(--myBlue);
+  border-radius: 5px;
+}
+
+#LineStarLineblue img {
+  color: var(--myBlue);
+  width: 33px;
+  height: 32px;
+}
+
+.containerphtos {
+  margin: 0 auto;
+  max-width: 1200px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.containerphtos .phtoPrtofolio {
+  width: 356px;
+  height: 257px;
+  margin: 0 10px 48px 10px;
+  margin-bottom: 48px;
+
+  border-radius: 10px;
+  cursor: pointer;
+  background-size: cover;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.containerphtos .phtoPrtofolio div {
+  width: 356px;
+  height: 300px;
+  background-color: var(--myGreen);
+  color: var(--myWhite);
+  font-size: 100px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: 100ms;
+}
+
+.containerphtos .phtoPrtofolio div:hover {
+  opacity: 0.85;
+  transition: 200ms;
+}
+
+/* --------------about--------------- */
+#about {
+  padding: 96px 0;
+  background-color: var(--myGreen);
+}
+
+#about > * {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#about h1 {
+  color: var(--myWhite);
+  text-transform: uppercase;
+  font-family: var(--mainFont);
+  font-size: 36px;
+  text-align: center;
+}
+
+#about .paragaphAbout {
+  display: flex;
+  justify-content: center;
+  color: var(--myWhite);
+  flex-wrap: wrap;
+}
+
+#about .paragaph {
+  margin: 0 0 16px 0;
+  padding: 0 20px;
+  width: 416px;
+  height: 150px;
+  font-size: 20px;
+  font-family: var(--paragraphfont);
+}
+
+#about button {
+  margin: 24px auto 0 auto;
+  display: block;
+  width: 230px;
+  height: 60px;
+  padding: 16px 28px;
+  border: var(--myWhite) solid;
+  border-radius: 10px;
+  background-color: var(--myGreen);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  color: var(--myWhite);
+  font-size: 20px;
+  font-family: var(--paragraphfont);
+  text-transform: capitalize;
+}
+
+#about button:hover {
+  background-color: var(--myWhite);
+  color: black;
+}
+
+#about button div {
+  width: 20px;
+  height: 20px;
+  margin-right: 8px;
+}
+
+/* --------------Contact-------------- */
+#Contact {
+  padding: 96px 0 48px 0px;
+  text-align: center;
+}
+
+#Contact > * {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#Contact h1 {
+  color: var(--myBlue);
+  text-transform: uppercase;
+  font-family: var(--mainFont);
+  font-size: 36px;
+  text-align: center;
+}
+
+#Contact form {
+  margin: 0 auto;
+  width: 50%;
+  height: auto;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+form .input,
+label {
+  width: 100%;
+}
+
+form label {
+  font-size: 1.5em;
+  font-family: var(--paragraphfont);
+  margin-top: 25px;
+  color: var(--maingray);
+  display: flex;
+  justify-content: flex-start;
+}
+
+form .input {
+  padding-top: 15px;
+  border: none;
+  border-bottom: var(--maingray);
+  border-bottom: groove;
+  outline: none;
+}
+
+form .input:active {
+  border: none;
+  border-bottom: var(--maingray);
+  border-bottom: groove;
+  border-color: #fff;
+}
+
+form #submit {
+  width: 90px;
+  height: 90px;
+  margin: 10px 0;
+  background-color: var(--myGreen);
+  color: var(--myWhite);
+  font-family: var(--paragraphfont);
+  font-size: 1.2em;
+  border: var(--myGreen);
+  border-radius: 5px;
+}
+
+/* -----------------footer-------------------- */
+#footerBanar {
+  background-color: var(--myBlue);
+  padding: 90px 0;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+#footerBanar > * {
+  color: var(--myWhite);
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.Location {
+  max-width: 400px;
+  color: var(--myWhite);
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.Location h1 {
+  width: 100%;
+  margin-bottom: 20px;
+  font-family: var(--mainFont);
+  text-align: center;
+  font-size: 24px;
+  text-transform: uppercase;
+}
+
+.Location p {
+  text-align: center;
+  font-family: var(--paragraphfont);
+  color: var(--myWhite);
+  font-size: 20px;
+  text-transform: capitalize;
+  width: 250px;
+}
+
+.webaplication {
+  max-width: 400px;
+  margin: 0 30px;
+  color: var(--myWhite);
+  text-transform: uppercase;
+}
+
+.webaplication h1 {
+  margin-bottom: 20px;
+  font-family: var(--mainFont);
+  text-align: center;
+  font-size: 24px;
+  text-transform: uppercase;
+}
+
+.webaplication .webaplicationICON {
+  display: flex;
+  justify-content: center;
+}
+
+.webaplicationICON div {
+  margin: 0 10px;
+  width: 50px;
+  height: 50px;
+  background-color: var(--myBlue);
+  border-radius: 50%;
+  border: var(--myWhite) solid;
+  background-size: 30%;
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
+}
+
+.webaplicationICON div:hover {
+  background-color: var(--myWhite);
+}
+
+.AboutFreelancer {
+  max-width: 400px;
+
+  text-align: center;
+
+  color: var(--myWhite);
+}
+
+.AboutFreelancer h1 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  text-transform: uppercase;
+  font-family: var(--mainFont);
+}
+
+.AboutFreelancer p {
+  width: 100%;
+  font-size: 20px;
+  text-transform: capitalize;
+  font-family: var(--paragraphfont);
+}
+
+.AboutFreelancer p a {
+  color: var(--myGreen);
+}
+
+footer {
+  background-color: #1a252f;
+  padding: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer p {
+  margin: 0;
+  text-align: center;
+  font-family: var(--paragraphfont);
+  font-size: 14px;
+  color: var(--myWhite);
+  text-transform: capitalize;
+}

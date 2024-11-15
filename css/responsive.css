@@ -1,0 +1,388 @@
+/* -----------foot banner only------------------------- */
+@media screen and (max-width: 1300px) {
+  .Location {
+    margin: 0 20%;
+  }
+
+  .Location h1 {
+    margin-bottom: 18px;
+  }
+
+  .Location p {
+    margin-bottom: 32px;
+  }
+
+  .webaplication {
+    margin: 32px 20% 32px 20%;
+  }
+
+  .webaplication h1 {
+    margin-bottom: 18px;
+  }
+
+  .webaplicationICON div {
+    margin-bottom: 32px;
+  }
+
+  .AboutFreelancer {
+    margin: 0 20%;
+  }
+
+  .AboutFreelancer h1 {
+    margin-bottom: 18px;
+  }
+}
+
+/* -------------------------------------------------- */
+@media screen and (max-width: 991px) {
+  /* ------nav-------- */
+  .navbar-brand {
+    font-size: 20px;
+  }
+
+  .nav-link {
+    font-size: 12px;
+  }
+
+  .navbar-toggler {
+    width: 110px;
+  }
+
+  .navbar-toggler span {
+    font-size: 18px;
+  }
+
+  .ic {
+    width: 20px;
+  }
+
+  /* --------banner--------------------- */
+  #bannerphoto {
+    width: 210px;
+  }
+
+  #banner h1 {
+    font-size: 50px;
+  }
+
+  #LineStarLinewhite span {
+    width: 110px;
+    height: 3.3px;
+  }
+
+  #LineStarLinewhite img {
+    width: 30px;
+  }
+
+  #banner p {
+    font-size: 20px;
+  }
+
+  /* ---------protfolio---------------- */
+  #portfolio {
+    padding: 90px 0 48px 0px;
+  }
+
+  #portfolio h1 {
+    font-size: 34px;
+  }
+
+  #LineStarLineblue span {
+    width: 110px;
+    height: 3.3px;
+  }
+
+  #LineStarLineblue img {
+    width: 30px;
+  }
+
+  .containerphtos .phtoPrtofolio {
+    width: 346px;
+    height: 250px;
+    margin-bottom: 34px;
+    border-radius: 8px;
+  }
+
+  /* ---------about-------------------- */
+  #about {
+    padding: 90px 0;
+  }
+
+  #about h1 {
+    font-size: 34px;
+  }
+
+  #about .paragaph {
+    height: 130px;
+    font-size: 18px;
+  }
+
+  #about button {
+    margin: 30px auto;
+    width: 215px;
+    height: 55px;
+    padding: 16px 28px;
+    border-radius: 8px;
+    font-size: 16px;
+  }
+
+  #about button div {
+    width: 18px;
+    height: 18px;
+    margin-right: 8px;
+  }
+
+  /* -----------Contact-------------- */
+  #Contact {
+    padding: 90px 0;
+  }
+
+  #Contact h1 {
+    font-size: 34px;
+  }
+
+  #Contact form {
+    width: 80%;
+  }
+  form label {
+    font-size: 1.3em;
+
+    margin-top: 20px;
+  }
+  form .input {
+    padding-top: 12px;
+  }
+  form #submit {
+    width: 80px;
+    height: 80px;
+    font-size: 1em;
+    border-radius: 4px;
+  }
+
+  /* -----------footerBanar---------- */
+  #footerBanar {
+    padding: 90px 0;
+  }
+
+  .Location {
+    margin: 0 20%;
+  }
+
+  .Location h1 {
+    font-size: 22px;
+    margin-bottom: 18px;
+  }
+
+  .Location p {
+    font-size: 18px;
+    margin-bottom: 32px;
+  }
+
+  .webaplication {
+    margin: 32px 0;
+    margin-top: 32px;
+    margin: 32px 20% 0 20%;
+  }
+
+  .webaplication h1 {
+    font-size: 22px;
+    margin-bottom: 18px;
+  }
+
+  .webaplicationICON div {
+    width: 38px;
+    height: 38px;
+    margin-bottom: 32px;
+  }
+
+  .AboutFreelancer {
+    margin: 0 20%;
+  }
+
+  .AboutFreelancer h1 {
+    font-size: 22px;
+    margin-bottom: 18px;
+  }
+
+  .AboutFreelancer p {
+    font-size: 18px;
+  }
+
+  footer p {
+    font-size: 14px;
+  }
+}
+
+/* -------------------------------------------------- */
+@media screen and (max-width: 600px) {
+  /* ------nav-------- */
+  .navbar-brand {
+    font-size: 18px;
+  }
+
+  .nav-link {
+    font-size: 12px;
+  }
+
+  .navbar-toggler {
+    width: 80px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+  }
+
+  .navbar-toggler span {
+    font-size: 14px;
+  }
+
+  .ic {
+    width: 10px;
+  }
+
+  /* --------banner--------------------- */
+  #bannerphoto {
+    width: 180px;
+  }
+
+  #banner h1 {
+    font-size: 40px !important;
+  }
+
+  #LineStarLinewhite span {
+    width: 98px;
+    height: 3px;
+  }
+
+  #LineStarLinewhite img {
+    width: 28px;
+  }
+
+  #banner p {
+    font-size: 16px;
+  }
+
+  /* ---------protfolio---------------- */
+  #portfolio {
+    padding: 80px 0 48px 0px;
+  }
+
+  #portfolio h1 {
+    font-size: 32px;
+  }
+
+  #LineStarLineblue span {
+    width: 98px;
+    height: 3px;
+  }
+
+  #LineStarLineblue img {
+    width: 28px;
+  }
+
+  .containerphtos .phtoPrtofolio {
+    width: 340px;
+    height: 248px;
+    margin-bottom: 34px;
+    border-radius: 8px;
+  }
+
+  /* ---------about-------------------- */
+  #about {
+    padding: 80px 0;
+  }
+
+  #about h1 {
+    font-size: 32px;
+  }
+
+  #about .paragaph {
+    width: auto;
+    height: 110px;
+    font-size: 16px;
+  }
+
+  #about button {
+    margin: 0 auto;
+    width: 200px;
+    height: 50px;
+    padding: 16px 28px;
+    border-radius: 8px;
+    font-size: 14px;
+  }
+
+  #about button div {
+    width: 16px;
+    height: 16px;
+    margin-right: 8px;
+  }
+
+  /* -----------Contact-------------- */
+  #Contact {
+    padding: 80px 0;
+  }
+
+  #Contact h1 {
+    font-size: 32px;
+  }
+
+  #Contact form {
+    width: 90%;
+  }
+  form label {
+    font-size: 1.1em;
+    margin-top: 18px;
+  }
+  form .input {
+    padding-top: 10px;
+  }
+  form #submit {
+    width: 70px;
+    height: 70px;
+    font-size: .8em;
+    border-radius: 3px;
+  }
+
+  /* -----------footerBanar---------- */
+  #footerBanar {
+    padding: 80px 0;
+  }
+
+  .Location h1 {
+    font-size: 20px;
+    margin-bottom: 16px;
+  }
+
+  .Location p {
+    font-size: 16px;
+    margin-bottom: 30px;
+  }
+
+  .webaplication {
+    margin: 30px 0;
+    margin-top: 30px;
+  }
+
+  .webaplication h1 {
+    font-size: 20px;
+    margin-bottom: 16px;
+  }
+
+  .webaplicationICON div {
+    width: 35px;
+    height: 35px;
+    margin-bottom: 30px;
+  }
+
+  .AboutFreelancer h1 {
+    font-size: 20px;
+    margin-bottom: 16px;
+  }
+
+  .AboutFreelancer p {
+    font-size: 16px;
+  }
+
+  footer p {
+    font-size: 12px;
+  }
+}
